@@ -1,1 +1,5 @@
 /env
+/judge_server/__pycache__
+/runner/migrations
+/runner/__pycache__
+/static
