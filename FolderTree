@@ -1,0 +1,22 @@
+Folder Structure for the project.
+
+Root Directory
+        |
+        |
+        | ---------> CodeDatas
+                        |   (Users)
+                        | ---------> { %username% }
+                        |                   |   (QuestionID)
+                        |                   | ---------> { %language% }
+                        |                                       |
+                        |                                       | ---------> CodeFile.{%extension%}
+                        |                                       | ---------> TestCaseData (Pass or Fail for each testcase)
+                        |
+                        |
+                        | ---------> Admin
+                                       |
+                                       |
+                                       | ---------> QuestionID
+                                                        |
+                                                        | 
+                                                        | ---------> JudgeFile.cpp
