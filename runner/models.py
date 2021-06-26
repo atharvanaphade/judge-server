@@ -47,7 +47,7 @@ class Submission(models.Model):
 
 class Code(models.Model):
     sub_id       = models.OneToOneField(Submission, on_delete=models.CASCADE)
-    buffer       = models.FileField(max_length=256, upload_to="CodeDatas/UnReferenced/Codefile.cpp")
+    buffer       = models.FileField(max_length=256, upload_to="CodeDatas/UnReferenced/Codefiles")
     language     = models.CharField(max_length=10, default='')
     file_ext     = models.CharField(max_length=10, default='')
 
